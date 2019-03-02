@@ -1,12 +1,16 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{% static 'fmrs/css/style.css' %}">
     <title>Django</title>
 </head>
 <body>
     <h1>This is the first file</h1>
+    <button onClick="pressMe();">Press Me</button>
+    <script src="{% static 'fmrs/js/app.js' %}"></script>
 </body>
 </html>
